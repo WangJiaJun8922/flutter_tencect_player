@@ -11,6 +11,10 @@
       <excludeFolder url="file://$MODULE_DIR$/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/.idea/libraries/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/.idea/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/.idea/runConfigurations/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/src/debug/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/src/main/java/com/example/flutter_tencent_video_player_example/packages" />
