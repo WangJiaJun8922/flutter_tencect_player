@@ -1,8 +1,8 @@
 name: flutter_tencent_video_player
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+author: "KenWang"
+homepage: "https://github.com/WangJiaJun8922/flutter_tencect_player"
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
