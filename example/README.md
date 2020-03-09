@@ -1,6 +1,6 @@
-# flutter_tencent_video_player_example
+# flutter_tc_player_example
 
-Demonstrates how to use the flutter_tencent_video_player plugin.
+Demonstrates how to use the flutter_tc_player plugin.
 
 ## Getting Started
 

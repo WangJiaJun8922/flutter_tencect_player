@@ -1,9 +1,7 @@
 import 'dart:async';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-import '../flutter_tencent_video_player.dart';
-import '../view/tencent_player.dart';
+import 'package:flutter_tc_player/flutter_tc_player.dart';
 
 class TencentPlayerController extends ValueNotifier<TencentPlayerValue> {
   // 唯一id
@@ -145,7 +143,7 @@ class TencentPlayerController extends ValueNotifier<TencentPlayerValue> {
   }
 
   EventChannel _eventChannelFor(int textureId) {
-    return EventChannel('flutter_tencent_video_player/videoEvents$textureId');
+    return EventChannel('flutter_tc_player/videoEvents$textureId');
   }
 
   @override

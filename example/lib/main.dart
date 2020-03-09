@@ -1,23 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_tc_player/controller/tencent_player_controller.dart';
-import 'package:flutter_tc_player/view/tencent_player.dart';
+import 'package:flutter_tc_player/flutter_tc_player.dart';
 
 void main() => runApp(MyApp());
 
-enum PlayType {
-  network,
-  asset,
-  file,
-  fileId,
-}
-
 class MyApp extends StatefulWidget {
-  PlayType playType;
-  String dataSource;
-
-  MyApp({this.dataSource, this.playType = PlayType.network});
-
   @override
   _MyAppState createState() => _MyAppState();
 }
@@ -46,7 +33,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   @override
-  Future dispose() {
+  void dispose() {
     super.dispose();
     controller.removeListener(listener);
     controller.dispose();
@@ -60,10 +47,10 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: controller.value.initialized ? AspectRatio(
-            aspectRatio: controller.value.aspectRatio,
-            child: TencentPlayer(controller),
-          ): Container()
+            child: controller.value.initialized ? AspectRatio(
+              aspectRatio: controller.value.aspectRatio,
+              child: TencentPlayer(controller),
+            ): Container()
         ),
       ),
     );

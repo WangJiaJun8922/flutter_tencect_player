@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:3.2.1'
     }
 }
 
@@ -16,14 +16,13 @@ if (pluginsFile.exists()) {
     pluginsFile.withReader('UTF-8') { reader -> plugins.load(reader) }
 }
 
-
 allprojects {
     repositories {
-        flatDir {
-            dirs "${plugins.get("flutter_tencent_video_player")}android/libs"
-        }
         google()
         jcenter()
+        flatDir {
+            dirs "${plugins.get("flutter_tc_player")}android/libs"
+        }
     }
 }
 

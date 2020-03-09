@@ -9,7 +9,7 @@ class TencentPlayer extends StatefulWidget {
 
   TencentPlayer(this.controller);
 
-  static MethodChannel channel = const MethodChannel('flutter_tencent_video_player')
+  static MethodChannel channel = const MethodChannel('flutter_tc_player')
     ..invokeMethod<void>('init');
 
   @override

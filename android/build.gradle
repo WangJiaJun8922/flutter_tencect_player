@@ -1,5 +1,5 @@
-group 'com.example.flutter_tc_player'
-version '1.0'
+group 'com.kenwang.flutter_tc_player'
+version '1.0-SNAPSHOT'
 
 buildscript {
     repositories {
@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:3.3.0'
     }
 }
 
@@ -39,4 +39,7 @@ dependencies {
     implementation(name: 'libsuperplayer', ext: 'aar')
     // 超级播放器弹幕集成的第三方库
     implementation 'com.github.ctiao:DanmakuFlameMaster:0.5.3'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 }
+

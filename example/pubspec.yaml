@@ -1,5 +1,5 @@
-name: flutter_tencent_video_player_example
-description: Demonstrates how to use the flutter_tencent_video_player plugin.
+name: flutter_tc_player_example
+description: Demonstrates how to use the flutter_tc_player plugin.
 publish_to: 'none'
 
 environment:
