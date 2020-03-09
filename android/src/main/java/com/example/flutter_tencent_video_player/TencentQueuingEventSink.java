@@ -1,4 +1,4 @@
-package com.example.flutter_tencent_video_player;
+package com.example.flutter_tc_player;
 
 import java.util.ArrayList;
 

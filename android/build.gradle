@@ -1,4 +1,4 @@
-group 'com.example.flutter_tencent_video_player'
+group 'com.example.flutter_tc_player'
 version '1.0'
 
 buildscript {
