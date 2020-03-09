@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_tencent_video_player/model/player_config.dart';
-import 'package:flutter_tencent_video_player/model/tencent_player_value.dart';
+
+import '../flutter_tencent_video_player.dart';
 import '../view/tencent_player.dart';
 
 class TencentPlayerController extends ValueNotifier<TencentPlayerValue> {

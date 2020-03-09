@@ -298,7 +298,7 @@ public class FlutterTencentVideoPlayerPlugin implements MethodCallHandler {
     }
 
     // 设置视频源类型
-    private void setPlaySource(MethodCall call) {
+    void setPlaySource(MethodCall call) {
       // network FileId播放
       if (call.argument("auth") != null) {
         authBuilder = new TXPlayerAuthBuilder();
@@ -338,29 +338,29 @@ public class FlutterTencentVideoPlayerPlugin implements MethodCallHandler {
       }
     }
 
-    private void play() {
+    void play() {
       if (!mVodPlayer.isPlaying()) {
         mVodPlayer.resume();
       }
     }
 
-    private void pause() {
+    void pause() {
       mVodPlayer.pause();
     }
 
-    private void seekTo(int location) {
+    void seekTo(int location) {
       mVodPlayer.seek(location);
     }
 
-    private void setRate(float rate) {
+   void setRate(float rate) {
       mVodPlayer.setRate(rate);
     }
 
-    private void setBitrateIndex(int index) {
+    void setBitrateIndex(int index) {
       mVodPlayer.setBitrateIndex(index);
     }
 
-    private void dispose() {
+    void dispose() {
       if (mVodPlayer != null) {
         mVodPlayer.setVodListener(null);
         mVodPlayer.stopPlay(true);

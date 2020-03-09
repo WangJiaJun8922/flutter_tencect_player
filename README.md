@@ -1,5 +1,9 @@
 # flutter_tencent_video_player
 
+Just Test pub publish, please not use it !
+Just Test pub publish, please not use it !
+Just Test pub publish, please not use it !
+
 A new flutter plugin project.
 
 ## Getting Started

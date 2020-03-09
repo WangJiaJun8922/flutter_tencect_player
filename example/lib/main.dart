@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_tencent_video_player/controller/tencent_player_controller.dart';
-import 'package:flutter_tencent_video_player/view/tencent_player.dart';
+import 'package:flutter_tc_player/controller/tencent_player_controller.dart';
+import 'package:flutter_tc_player/view/tencent_player.dart';
 
 void main() => runApp(MyApp());
 

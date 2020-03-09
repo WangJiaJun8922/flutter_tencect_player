@@ -1,8 +1,8 @@
-name: flutter_tencent_video_player
-description: A new flutter plugin project.
+name: flutter_tc_player
+description: just test pub publish
 version: 0.0.1
 author: "KenWang"
-homepage: "https://github.com/WangJiaJun8922/flutter_tencect_player"
+homepage: "https://www.baidu.com"
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  wakelock:
+  wakelock: ^0.1.3+4
 
 dev_dependencies:
   flutter_test:

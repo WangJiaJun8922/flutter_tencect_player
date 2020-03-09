@@ -69,7 +69,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_tencent_video_player:
+  flutter_tc_player:
     dependency: "direct dev"
     description:
       path: ".."
