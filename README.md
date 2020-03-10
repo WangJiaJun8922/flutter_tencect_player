@@ -1,10 +1,13 @@
-# flutter_tencent_video_player
+# flutter_tc_player
 
 Just Test pub publish, please not use it !
 Just Test pub publish, please not use it !
 Just Test pub publish, please not use it !
 
-A new flutter plugin project.
+```
+dependencies:
+  flutter_tc_player: ^0.0.4
+```
 
 ## Getting Started
 

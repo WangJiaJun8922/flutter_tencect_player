@@ -9,11 +9,10 @@
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/example/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/example/.idea/libraries/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/.idea/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/.idea/runConfigurations/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/src/debug/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/app/src/main/java/com/kenwang/flutter_tc_player_example/packages" />
@@ -37,6 +36,7 @@
       <excludeFolder url="file://$MODULE_DIR$/example/android/gradle/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/gradle/wrapper/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/android/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/Flutter/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/Runner.xcodeproj/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/packages" />
@@ -50,8 +50,6 @@
       <excludeFolder url="file://$MODULE_DIR$/example/ios/Runner/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/lib/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/test/packages" />
       <excludeFolder url="file://$MODULE_DIR$/packages" />
       <excludeFolder url="file://$MODULE_DIR$/test/packages" />
     </content>
